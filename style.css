@@ -1,0 +1,67 @@
+body {
+}
+
+.topnav {
+    background-color: #BB1919;
+    height: 95px;
+}
+.navbar-brand {
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    }
+#brand {
+    position: relative;
+    margin-top: 7px;
+    color: white;
+}
+.btntryagain {
+    background-color: #00C851;
+    margin-top: 10px;
+}
+.activeBtn {
+    background-color: darksalmon;
+}
+.submitted {
+    background-color: #00C851; 
+    margin-top:0;
+
+}
+.inactive {
+    display: none;
+
+}
+.movieinfo {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+#ytplayer {
+    text-align: center;
+    margin-top: 10px;
+
+}
+#description {
+    margin: 15px 50px;
+    font-size: 20px;
+
+}
+.plot {
+    padding: 5px 40px;
+    margin: 0 auto;
+
+}
+footer {
+   
+    height: 70px;
+    background-color:#A91717;
+    color: white;
+} 
+.copy{
+    padding-top: 25px;
+
+}
+.extrapadding {
+margin-top: 300px;
+
+}

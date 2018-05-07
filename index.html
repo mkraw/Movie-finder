@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Euro Movie Finder</title>
+
+   
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+           
+<script src="https://use.fontawesome.com/3e787a0b78.js"></script>
+    </head>
+    <body>
+        
+       <nav class="navbar topnav">
+           <div class="container fluid">
+            
+           <div class="navbar-header">
+                
+               <div class="navbar-brand">
+         
+              
+               <h1 id="brand">EUROPEAN <br> MOVIE FINDER</h1>
+               </div>
+                             </div>             
+               </div>
+          
+        </nav>
+       <div class="container categories">
+           <div class="intro text-center">
+        <h2> Bored of seeing the same movies?  </h2>
+           <p id="paragraph" class="lead">Broaden your horizons with European cinema. Choose a category that suits your fancy and enjoy!</p>
+           </div>
+        <div class="row text-center btnGroup" >
+            
+          <button id="btnComedy" type="button" class="btn btn-lg btn-secondary genre" value="comedy">Comedy</button>
+          <button id="btnAction"type="button" class="btn btn-lg btn-secondary genre" value="action">Action</button>
+          <button id="btnDrama" type="button" class="btn btn-lg btn-secondary genre" value="drama">Drama</button>
+        </div>
+        <div class="text-center btnGo">
+           <button type="button" id="submit" class="btn btntryagain ">GO!</button>
+           </div>
+        </div>
+        <div class="movieinfo">
+            <div class="text-center" ><h2 id="movieTitle"></h2><span class="text-muted countryinfo"></span>
+            <span id="error"></span> 
+            
+            </div>
+            <div id="ytplayer" class=" inactive">
+            <div class="row">    
+               <div class="col-sm-8 col-sm-offset-2 embed-responsive embed-responsive-16by9">
+                
+            <iframe id="player" class="embed-responsive-item" type="text/html" width="640" height="390"
+  src="" frameborder="0"></iframe>
+            </div>
+                </div>
+            </div>
+            <div id="description" class="text-lead text-center"></div>
+        
+        </div>
+        
+        <footer class="extrapadding text-center"> 
+        <p class="text-lead copy">Made with <i class="fa fa-heart" aria-hidden="true">.</i>
+</p>
+        </footer>
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+       
+    
+    </body>
+</html>
